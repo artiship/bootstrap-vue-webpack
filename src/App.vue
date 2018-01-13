@@ -1,17 +1,7 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <div class="wrapper">
-      <div class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, expedita!
-      </div>
-      <div class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, porro.
-      </div>
-      <div class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, alias.
-      </div>
-    </div>
+    <router-view></router-view>
   </div>
 </template>
 
