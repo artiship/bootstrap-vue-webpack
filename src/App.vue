@@ -2,7 +2,6 @@
   <div id="app">
     <app-header></app-header>
     <router-view></router-view>
-    <p>{{msg}}</p>
   </div>
 </template>
 
@@ -16,7 +15,7 @@ export default {
   },
   data () {
     return {
-      msg: 'This is vue template project!'
+      msg: 'This is vue template project'
     }
   }
 }
