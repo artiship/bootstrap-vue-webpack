@@ -1,5 +1,7 @@
-import {newsApi} from 'api'
+import {newsApi} from '@/api'
 import * as TYPE from '../actionType/newsType'
+
+console.log(TYPE)
 
 const state = {
   newsList: []
@@ -11,13 +13,11 @@ const getters = {
 
 const mutations = {
 	[TYPE.NEWS_LIST_REQUEST] (state) {
-
 	},
-	[TYPE.MEWS_LIST_SUCCESS] (state, newslist) {
+	[TYPE.NEWS_LIST_SUCCESS] (state, newslist) {
 		state.bannerlist = bannerlist.data
 	},
-	[TYPE.MEWS_LIST_FAILURE] (state) {
-
+	[TYPE.NEWS_LIST_FAILURE] (state) {
 	}
 }
 

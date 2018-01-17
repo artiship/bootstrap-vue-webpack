@@ -1,5 +1,5 @@
-import * as url from 'urlConfig'
 import axios from 'axios'
+import * as url from './urlConfig'
 
 export const newsApi = {
   list() {
