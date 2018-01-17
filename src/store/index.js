@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-import listStore from './modules/listStore'
+import newsStore from './modules/newsStore'
 
 const state = {
   requesting: false,
@@ -19,6 +19,6 @@ export default new Vuex.Store({
   state,
   getters,
   modules: {
-    listStore
+    newsStore
   }
 })
