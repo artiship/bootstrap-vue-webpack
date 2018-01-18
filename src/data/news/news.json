@@ -1,0 +1,9 @@
+news = [
+  {
+    "id":1,
+    "title": "Go Go, Go Stream Processing for Go (wallaroolabs.com)",
+    "points": 44,
+    "source": "spooneybarger",
+    "comments": 3
+  }
+]

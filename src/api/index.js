@@ -3,7 +3,7 @@ import * as url from './urlConfig'
 
 export const newsApi = {
   list() {
-    return axios.get(url.news).then(({data}) => {
+    return axios.get(`${url.news}/news.json`).then(({data}) => {
       return data;
     })
   }
